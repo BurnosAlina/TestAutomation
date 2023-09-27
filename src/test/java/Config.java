@@ -16,8 +16,8 @@ public class Config {
         driver.get("https://ultimateqa.com/simple-html-elements-for-automation/");
     }
 
-//    @AfterEach
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterEach
+    public void tearDown() {
+        driver.quit();
+    }
 }
